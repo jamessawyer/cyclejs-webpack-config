@@ -1,0 +1,4 @@
+node_modules
+*.bug
+*.log
+debug.*

@@ -1,0 +1,14 @@
+{
+    "presets": [
+        "stage-2",
+        "es2015"
+    ],
+    "plugins": [
+        "syntax-jsx",
+        ["transform-react-jsx", { "parama": "html" }],
+        "transform-function-bind",
+        ["babel-plugin-root-import", {
+            "rootPathSuffix": "src/"
+        }]
+    ]
+}
